@@ -1,0 +1,1 @@
+print(''.join([l for i, l in zip(range(int(__import__('sys').argv[1])), open('hightemp.txt').readlines())]))
