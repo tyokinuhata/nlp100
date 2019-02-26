@@ -1,0 +1,1 @@
+print(' '.join(s if len(s) <= 4 else s[0] + ''.join(__import__('random').sample(s[1:-1], len(s) - 2)) + s[-1] for s in "I couldn't believe that I could actually understand what I was reading : the phenomenal power of the human mind .".split()))
